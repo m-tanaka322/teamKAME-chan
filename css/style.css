@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* reset */
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img,
+h1, h2, h3 ,h4 ,h5, h6, form, select {
+	margin: 0;
+	padding: 0;
+}
+ul, ol		{ list-style: none; }
+img			{ border: 0; vertical-align: middle; }
+table		{ border-collapse: collapse; }
+input,
+select		{ vertical-align: middle; }
+
+/* common */
+html{
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+}
+
+ul {
+	color: #ffffff;
+}
+ul li{
+	margin: 20px 0;
+	margin-left: 40px;
+}
+
+/*  */
+.wrapper{
+	width: 100%;
+	height: 100%;
+	position:relative;
+}
+.content {
+	width: 100%;
+	height: 100%;
+}
+section {
+	width: 100%;
+	height: 100%;
+}
+
+#top {
+	background-color: #36c4d0;
+	opacity: 1;
+	display: flex;
+}
+#question1{
+}
+#answer1{
+}
+
+.balloon-space{
+	border: 1px solid;
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+/* top */
+#title{
+	margin: 0 auto;
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	font-size: 4em;
+}
+
+
+.question {
+	background-color: #36c4d0;
+}
+.answer{
+	background-color: #36c4d0;
+	display: flex;
+	flex-flow: row;
+}
+.box1, .box2 {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+/**/
