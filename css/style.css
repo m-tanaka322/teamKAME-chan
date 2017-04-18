@@ -41,6 +41,7 @@ a:hover {
 	opacity: 1;
 }
 section {
+	padding: 5% 0;
 	position: relative;
 	width: 100%;
 	height: 100%;
