@@ -16,11 +16,11 @@ select		{ vertical-align: middle; }
 html{
 	width: 100%;
 	height: 100%;
+	font-size: 30px;
 }
 body {
 	width: 100%;
 	height: 100%;
-	font-size: 30px;
 }
 
 ul {
@@ -30,6 +30,17 @@ ul li{
 	margin: 20px 0;
 	margin-left: 40px;
 }
+li span{
+	float:left;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+	opacity: 1;
+}
+a:hover {
+	opacity: 1;
+}
 
 /*  */
 .wrapper{
@@ -37,9 +48,21 @@ ul li{
 	height: 100%;
 	position:relative;
 }
+.black {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+	box-sizing: border-box;
+	top:0;
+	left: 0;
+}
 .content {
 	width: 100%;
 	height: 100%;
+	box-sizing: border-box;
 }
 section {
 	width: 100%;
@@ -57,26 +80,27 @@ section {
 }
 
 .balloon-space{
-	border: 1px solid;
-	width: 400px;
-	height: 300px;
-	margin: 0 auto;
+	padding: 9% 0;
+}
+.check {
+	text-align: center;
+	margin: 1em;
 }
 
 /* top */
 #title{
+	color: #ffffff;
 	margin: 0 auto;
-	width: 100%;
+	padding-left: 0.5em;
 	position: absolute;
 	top: 30%;
 	font-size: 4em;
 }
-
-
 .question {
 	background-color: #36c4d0;
+	position: relative;
 }
-.answer{
+.result{
 	background-color: #36c4d0;
 	display: flex;
 	flex-flow: row;
@@ -84,9 +108,51 @@ section {
 .box1, .box2 {
 	width: 100%;
 	height: 100%;
+	padding: 17% 5%;
+	box-sizing: border-box;
 }
 
-
-
-
-/**/
+/* icon */
+.icon {
+	display: inline-block;
+	width: 13px;
+	height: 40px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.icon-x:before, .icon-x:after {
+	display: block;
+	content: "";
+	width: 13px;
+	height: 130px;
+	-webkit-transform :rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	background-color: #F24D16;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	position: absolute;
+	top: 33px;
+	left: 51px;
+}
+.icon-x:after {
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.icon-box{
+	position: absolute;
+	top: -20px;
+	left: 20px;
+	z-index: 100000;
+	opacity: 0;
+}
+.icon-num1 {
+	width: 80px;
+	height: 80px;
+	background: url("../img/q_icon_a.png");
+	-webkit-background-size: contain;
+	     -o-background-size: contain;
+	        background-size: contain;
+}

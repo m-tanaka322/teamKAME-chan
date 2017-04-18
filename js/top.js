@@ -7,4 +7,18 @@ $(function(){
 		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
 	});
+	$x = $('.x')
+	$x.on('click',function(){
+		$x.children('.icon-box').animate({opacity: 1}, 500);
+	});
+	$qu = $('.qu')
+	$black = $('.black')
+	$qu.on('mouseover',function(){
+		$black.css({opacity: 0.5});
+		$(this).find('img').css({'z-index': 999, 'position': 'absolute'});
+	});
+	$qu.on('mouseout',function(){
+		$black.css({opacity: 0});
+		$(this).find('img').css({'z-index': 0, 'position': 'absolute'});
+	});
 });
