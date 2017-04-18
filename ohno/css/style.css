@@ -116,3 +116,35 @@ body{
 	line-height: 1.5em;
 	font-size: 0.58em;
 }
+
+.top-image{
+	position: relative;
+}
+
+.top-keybord{
+	position: absolute;
+	top: 0;
+}
+
+.top-mouse{
+	position: absolute;
+	top: 80%;
+	left: 65%;
+}
+
+.top-peaper{
+	position: absolute;
+	top: 294%;
+	width: 120px;
+	height: 110px;
+}
+
+.top-note{
+	position: absolute;
+	top: 150%;
+	left: 20%;
+	width: 230px;
+	height: 305px;
+}
+
+
