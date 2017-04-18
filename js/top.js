@@ -7,10 +7,12 @@ $(function(){
 		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
 	});
+
 	$x = $('.x')
 	$x.on('click',function(){
-		$x.children('.icon-box').animate({opacity: 1}, 500);
+		$(this).children('.icon-box').animate({opacity: 1}, 500);
 	});
+
 	$qu = $('.qu')
 	$black = $('.black')
 	$qu.on('mouseover',function(){
