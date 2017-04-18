@@ -13,14 +13,12 @@ input,
 select		{ vertical-align: middle; }
 
 /* common */
-html{
+html,body{
 	width: 100%;
 	height: 100%;
 	font-size: 30px;
-}
-body {
-	width: 100%;
-	height: 100%;
+	font-family: sans-serif;
+	font-family : MSGothic, 'MS Gothic', sans-serif;
 }
 
 ul {
@@ -79,6 +77,22 @@ section {
 .qu{
   cursor : pointer;
 }
+.qu-box{
+	position: absolute;
+	background-color: #F6C200;
+	width: 200px;
+	padding: 20px;
+	top: 38px;
+	font-size: 0.45em;
+	display: none;
+	z-index: 999
+}
+.qu-box-l {
+	left: -280px;
+}
+.qu-box-r {
+	left: 190px;
+}
 
 .balloon-space{
 	padding: 9% 0;
@@ -96,6 +110,7 @@ section {
 	position: absolute;
 	top: 30%;
 	font-size: 4em;
+	font-family: YuKyo_Yoko-Medium;
 }
 .question {
 	background-color: #36c4d0;
