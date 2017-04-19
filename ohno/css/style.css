@@ -52,69 +52,22 @@ body{
 .question_img5 img{
 	position: absolute;
 }
-.border1{
-	position: absolute;
-	top: 150px;
-	left: 230px;
-
-}
-
-.border2{
-	position: absolute;
-	top: 150px;
-	left: 600px;
-}
-
-.border3{
-	position: absolute;
-	top: 340px;
-	left: 200px
-
-}
-
-.border4{
-	position: absolute;
-	top: 340px;
-	left: 650px;
-}
-
 .arrow_box {
+	background: url("../../img/apage/mannerstraining_apage_d.png");
+	-webkit-background-size: contain;
+	     -o-background-size: contain;
+	        background-size: contain;
+	background-repeat: no-repeat;
 	position: relative;
-	background: #F1C40F;
-	border: 4px solid #F1C40F;
-	width: 400px;
+	width: 450px;
 	height: 130px;
 	margin: 0 auto;
-	box-shadow: 6px 6px  #ffffff;
-	padding: 20px;
-}
-.arrow_box:after, .arrow_box:before {
-	bottom: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-
-.arrow_box:after {
-	border-color: rgba(241, 196, 15, 0);
-	border-bottom-color: #F1C40F;
-	border-width: 20px;
-	margin-left: -26px;
-
-}
-.arrow_box:before {
-	border-color: rgba(241, 196, 15, 0);
-	border-bottom-color: #F1C40F;
-	border-width: 20px;
-	margin-left: -26px;
+	padding: 50px 20px;
 }
 .arrow_box p{
-	line-height: 1.5em;
+	line-height: 1.6em;
 	font-size: 0.58em;
+	text-align: left;
 }
 
 .top-image{

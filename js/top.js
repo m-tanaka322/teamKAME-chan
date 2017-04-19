@@ -19,10 +19,11 @@ $(function(){
 		$black.css({opacity: 0.5});
 		$(this).find('img').css({'z-index': 999});
 		$(this).find('.qu-box').show();
+		$(this).find('.qu-box').css({'z-index': 999});
 	});
 	$qu.on('mouseout',function(){
 		$black.css({opacity: 0});
 		$(this).find('img').css({'z-index': 0, 'position': 'absolute'});
-		$(this).find('.qu-box').hide();
+		$(this).find('.qu-box').css({'z-index': 0});
 	});
 });

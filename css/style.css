@@ -18,7 +18,7 @@ html,body{
 	height: 100%;
 	font-size: 30px;
 	font-family: sans-serif;
-	font-family : MSGothic, 'MS Gothic', sans-serif;
+	font-family : YuGothic, MSGothic, 'MS Gothic', sans-serif;
 }
 
 ul {
@@ -97,20 +97,19 @@ section {
 .qu-box{
 	position: absolute;
 	background-color: #F6C200;
-	width: 200px;
+	width: 130px;
 	padding: 20px;
-	top: 38px;
+	top: 20px;
 	font-size: 0.57em;
 	display: none;
 	z-index: 999
 }
 .qu-box-l {
-	left: -280px;
+	left: -190px;
 }
 .qu-box-r {
-	left: 190px;
+	left: 165px;
 }
-
 .balloon-space{
 	margin-top: -100px;
 }
@@ -131,6 +130,7 @@ section {
 	top: 30%;
 	font-size: 4em;
 	font-family: YuKyo_Yoko-Medium;
+	z-index: 999
 }
 .question {
 	background-color: #36c4d0;
@@ -154,6 +154,8 @@ section {
 	opacity: 1;
 	display: flex;
 	position: relative;
+	margin: 0;
+	padding: 0;
 }
 .human {
 	width: 100%;
@@ -164,8 +166,9 @@ section {
 	position:absolute;
 }
 .about-box{
+	margin: 3%;
 	line-height: 1.5em;
-	font-size: 0.58em;
+	font-size: 0.8em;
 	width: 450px;
 	height: 200px;
 	padding: 20px 20px 40px 25px;
@@ -176,17 +179,25 @@ section {
 	bottom: 10%;
 }
 
+/* comment */
+#comment {
+	text-align: center;
+}
+
 /* last */
+#last {
+	text-align: center;
+}
 #last p{
+	text-align: center;
 	color: #ffffff;
-	margin: 0 auto;
 	padding-left: 0.5em;
 	font-size: 3em;
 	margin-top: 0%;
 	font-family: YuKyo_Yoko-Medium;
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 /* icon */
 .icon {
