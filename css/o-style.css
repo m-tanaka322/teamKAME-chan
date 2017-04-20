@@ -11,7 +11,6 @@ body{
 	height: 500px;
 	margin: 0 auto;
 }
-
 .question_img1{
 	position: absolute;
 	top: 36px;
@@ -53,7 +52,7 @@ body{
 	position: absolute;
 }
 .arrow_box {
-	background: url("../../img/apage/mannerstraining_apage_d.png");
+	background: url("../img/apage/mannerstraining_apage_d.png");
 	-webkit-background-size: contain;
 	     -o-background-size: contain;
 	        background-size: contain;
