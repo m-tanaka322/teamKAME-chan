@@ -20,18 +20,6 @@ html,body{
 	font-family: sans-serif;
 	font-family : YuGothic, MSGothic, 'MS Gothic', sans-serif;
 }
-
-ul {
-	color: #ffffff;
-}
-ul li{
-	width: 80%;
-	margin: 5% 0;
-	margin-left: 40px;
-}
-li span{
-	float:left;
-}
 a {
 	text-decoration: none;
 	color: #ffffff;
@@ -46,9 +34,13 @@ section {
 	width: 100%;
 	height: 100%;
 	min-height: 800px;
+	margin-bottom: 200px;
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
+}
+li>span{
+	float:left;
 }
 
 /* nav */
@@ -91,6 +83,7 @@ section {
 	display: flex;
 }
 
+/*  */
 .qu{
   cursor : pointer;
 }
@@ -98,14 +91,14 @@ section {
 	position: absolute;
 	background-color: #F6C200;
 	width: 130px;
-	padding: 20px;
-	top: 20px;
+	padding: 15px;
+	top: -10px;
 	font-size: 0.57em;
 	display: none;
 	z-index: 999
 }
 .qu-box-l {
-	left: -190px;
+	left: -170px;
 }
 .qu-box-r {
 	left: 165px;
@@ -119,6 +112,20 @@ section {
 }
 .check-img{
 	margin-left: 8%;
+}
+
+/*  */
+.box2>ul {
+	color: #ffffff;
+}
+.box2>ul>li{
+	width: 80%;
+	margin: 5% 0;
+	margin-left: 40px;
+	font-size: 0.8em;
+}
+.box2>ul>li>p{
+	padding-left: 3em;
 }
 
 /* top */
@@ -182,23 +189,29 @@ section {
 /* comment */
 #comment {
 	text-align: center;
-	
+
 }
 
 /* last */
 #last {
-	text-align: center;
 }
 #last p{
-	text-align: center;
 	color: #ffffff;
-	padding-left: 0.5em;
+	padding-left: 1em;
 	font-size: 3em;
 	margin-top: 0%;
 	font-family: YuKyo_Yoko-Medium;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+}
+.arrow_box>ul{
+	text-align: left;
+	font-size: 0.55em;
+}
+.arrow_box>ul>li{
+	list-style: disc;
+	margin-left: 10px;
 }
 /* icon */
 .icon {

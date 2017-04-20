@@ -73,18 +73,15 @@ body{
 .top-image{
 	position: relative;
 }
-
 .top-keybord{
 	position: absolute;
 	top: 0;
 }
-
 .top-mouse{
 	position: absolute;
 	top: 200px;
 	left: 450px;
 }
-
 .top-peaper{
 	position: absolute;
 	top: 550px;
@@ -92,7 +89,6 @@ body{
 	width: 120px;
 	height: 110px;
 }
-
 .top-note{
 	position: absolute;
 	top: 280px;
@@ -100,7 +96,6 @@ body{
 	width: 230px;
 	height: 305px;
 }
-
 .top-pen{
 	position: absolute;
 	top: 500px;
@@ -108,5 +103,3 @@ body{
 	width: 63px;
 	height: 183px;
 }
-
-
